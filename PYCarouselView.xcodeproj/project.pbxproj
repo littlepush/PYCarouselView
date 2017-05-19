@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		81B9DFD51A824C1416E0AB49 /* libPods-PYCarouselViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FAC9198865001EA6FF168A /* libPods-PYCarouselViewTests.a */; };
-		E6044BBB1ECED31100B2CD2B /* PYCarouselView.h in Headers */ = {isa = PBXBuildFile; fileRef = E6044BB91ECED31100B2CD2B /* PYCarouselView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6044BC81ECED34E00B2CD2B /* PYCarouselViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6044BC71ECED34E00B2CD2B /* PYCarouselViewTests.m */; };
 		E6044BCA1ECED34E00B2CD2B /* PYCarouselView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6044BB61ECED31100B2CD2B /* PYCarouselView.framework */; };
+		E6044BD21ECED3EE00B2CD2B /* PYCarouselView.h in Headers */ = {isa = PBXBuildFile; fileRef = E6044BD01ECED3EE00B2CD2B /* PYCarouselView.h */; };
+		E6044BD31ECED3EE00B2CD2B /* PYCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6044BD11ECED3EE00B2CD2B /* PYCarouselView.m */; };
+		E6677E621ECED4FB00C9ED97 /* PYCarouselContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = E6677E601ECED4FB00C9ED97 /* PYCarouselContentView.h */; };
+		E6677E631ECED4FB00C9ED97 /* PYCarouselContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6677E611ECED4FB00C9ED97 /* PYCarouselContentView.m */; };
 		F6F9DE796740D2B71300CAE5 /* libPods-PYCarouselView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1284D9079E33522A77CBBAC4 /* libPods-PYCarouselView.a */; };
 /* End PBXBuildFile section */
 
@@ -32,11 +35,14 @@
 		6841656F68AB321AEDAE6E96 /* Pods-PYCarouselViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYCarouselViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYCarouselViewTests/Pods-PYCarouselViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		6DE1F60C325AA6DB45786755 /* Pods-PYCarouselView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYCarouselView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYCarouselView/Pods-PYCarouselView.debug.xcconfig"; sourceTree = "<group>"; };
 		E6044BB61ECED31100B2CD2B /* PYCarouselView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PYCarouselView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6044BB91ECED31100B2CD2B /* PYCarouselView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYCarouselView.h; sourceTree = "<group>"; };
 		E6044BBA1ECED31100B2CD2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6044BC51ECED34E00B2CD2B /* PYCarouselViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYCarouselViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6044BC71ECED34E00B2CD2B /* PYCarouselViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYCarouselViewTests.m; sourceTree = "<group>"; };
 		E6044BC91ECED34E00B2CD2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6044BD01ECED3EE00B2CD2B /* PYCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYCarouselView.h; sourceTree = "<group>"; };
+		E6044BD11ECED3EE00B2CD2B /* PYCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYCarouselView.m; sourceTree = "<group>"; };
+		E6677E601ECED4FB00C9ED97 /* PYCarouselContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYCarouselContentView.h; sourceTree = "<group>"; };
+		E6677E611ECED4FB00C9ED97 /* PYCarouselContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYCarouselContentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +109,11 @@
 		E6044BB81ECED31100B2CD2B /* PYCarouselView */ = {
 			isa = PBXGroup;
 			children = (
-				E6044BB91ECED31100B2CD2B /* PYCarouselView.h */,
 				E6044BBA1ECED31100B2CD2B /* Info.plist */,
+				E6044BD01ECED3EE00B2CD2B /* PYCarouselView.h */,
+				E6044BD11ECED3EE00B2CD2B /* PYCarouselView.m */,
+				E6677E601ECED4FB00C9ED97 /* PYCarouselContentView.h */,
+				E6677E611ECED4FB00C9ED97 /* PYCarouselContentView.m */,
 			);
 			path = PYCarouselView;
 			sourceTree = "<group>";
@@ -125,7 +134,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6044BBB1ECED31100B2CD2B /* PYCarouselView.h in Headers */,
+				E6677E621ECED4FB00C9ED97 /* PYCarouselContentView.h in Headers */,
+				E6044BD21ECED3EE00B2CD2B /* PYCarouselView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +322,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6044BD31ECED3EE00B2CD2B /* PYCarouselView.m in Sources */,
+				E6677E631ECED4FB00C9ED97 /* PYCarouselContentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +534,7 @@
 				E6044BCE1ECED34E00B2CD2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

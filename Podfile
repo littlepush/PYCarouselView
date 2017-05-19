@@ -7,6 +7,7 @@ target 'PYCarouselView' do
 
   # Pods for PYCarouselView
   pod 'PYUIKit'
+  pod 'PYImageKit'
 
   target 'PYCarouselViewTests' do
     inherit! :search_paths
