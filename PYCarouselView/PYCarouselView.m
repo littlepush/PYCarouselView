@@ -206,11 +206,9 @@ typedef PYCarouselViewIndicatorAlignment    PY_CVIAlign;
     [self addSubview:_pctlIndicator];
     
     _nextContent = [PYCarouselContentView object];
-    [_nextContent setBackgroundColor:[UIColor greenColor]];
     [_scrollView addSubview:_nextContent];
     
     _currentContent = [PYCarouselContentView object];
-    [_currentContent setBackgroundColor:[UIColor redColor]];
     [_scrollView addSubview:_currentContent];
     
     [_scrollView setShowsVerticalScrollIndicator:NO];
