@@ -128,6 +128,12 @@
     [_lbDescription setBackgroundColor:[UIColor clearColor]];
 }
 
+- (void)setFrame:(CGRect)frame
+{
+    [super setFrame:frame];
+    [self setNeedsDisplay];
+}
+
 - (void)drawRect:(CGRect)rect
 {
     [super drawRect:rect];

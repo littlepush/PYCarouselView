@@ -223,6 +223,12 @@ typedef PYCarouselViewIndicatorAlignment    PY_CVIAlign;
     [_scrollView addGestureRecognizer:_tapGesture];
 }
 
+- (void)setFrame:(CGRect)frame
+{
+    [super setFrame:frame];
+    [self setNeedsLayout];
+}
+
 - (void)layoutSubviews
 {
     [super layoutSubviews];
